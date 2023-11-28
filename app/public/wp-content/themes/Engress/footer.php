@@ -28,8 +28,9 @@ Template Name: フッター
 	<div class="footer_bottom">
 		<p>© 2020 Engress. </p>
 	</div>
+	
 </footer><!-- #colophon -->
-</div><!-- #page -->
+<!-- #page -->
 
 <?php wp_footer(); ?> 
 </body>

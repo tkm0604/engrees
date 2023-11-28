@@ -18,4 +18,3 @@
     <p class="sp_time">平日 08:00~20:00</p>
 
 </div>
-</div>

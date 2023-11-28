@@ -34,7 +34,7 @@ Template Name:blog記事一覧ページ
                 <article class="blog_article">
                     <div class="blog_img">
                     <?php the_post_thumbnail('thumbnail', array('class' => 'blog_img')); ?>
-                        <p class="blog_category"><?php the_category(); ?></p>
+                        <?php the_category(); ?>
                     </div>
                     <div class="blog_title_wrap">
                     <p class="blog_date"> <?php echo get_the_date(); ?></p>

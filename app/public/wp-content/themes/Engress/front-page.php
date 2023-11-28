@@ -195,7 +195,7 @@ Template Name: トップページ
                             <div class="blog_img__wrap">
                                 <?php the_post_thumbnail('thumbnail', array('class' => 'blog_img')); ?>
                                 <a class="blog_content__link" href="<?php the_permalink(); ?>"></a>
-                                <p class="blog_category"><?php the_category(); ?></p>
+                                <?php echo the_category(); ?>
                             </div>
                             <div class="blog_title_wrap">
                                 <a class="blog_title" href="<?php the_permalink(); ?>">
@@ -251,6 +251,7 @@ Template Name: トップページ
                 </div>
             </transition>
             </div>
+
             `,
 
             data() {
