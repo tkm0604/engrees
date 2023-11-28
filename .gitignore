@@ -13,14 +13,14 @@ logs/
 # sql
 app/sql
 
-# app/wp-content を除外から除外（追跡対象にする）
-!app/wp-content/
+# app/public/wp-content を追跡対象にする
+!app/public/wp-content/
 
-# app/wp-content/uploads を除外（追跡から外す）
-app/wp-content/uploads/
+# app/public/wp-content/uploads を追跡から外す
+app/public/wp-content/uploads/
 
-# app/wp-content/ai1wm-backups を除外（追跡から外す）
-app/wp-content/ai1wm-backups/
+# app/public/wp-content/ai1wm-backups を追跡から外す
+app/public/wp-content/ai1wm-backups/
 
 
 # WordPress コアファイル
