@@ -1,0 +1,50 @@
+# Mac OS のシステムファイル
+.DS_Store
+
+# Git ディレクトリ
+.git
+
+# 設定ファイル
+conf/
+
+# ログファイル
+logs/
+
+# sql
+app/sql
+
+# app/wp-content を除外から除外（追跡対象にする）
+!app/wp-content/
+
+# app/wp-content/uploads を除外（追跡から外す）
+app/wp-content/uploads/
+
+
+# WordPress コアファイル
+.htaccess
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-admin/
+wp-content/uploads/
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-includes/
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# 追加のファイ
+
+
+# その他の隠しファイルとディレクトリ
+.*
+!.gitignore

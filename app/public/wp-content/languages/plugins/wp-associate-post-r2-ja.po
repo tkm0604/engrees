@@ -1,0 +1,484 @@
+# Translation of Plugins - WP Associate Post R2 - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Associate Post R2 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-25 11:45:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Associate Post R2 - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://delight-star.co.jp/"
+msgstr "https://delight-star.co.jp/"
+
+#. Author of the plugin
+msgid "Delight Star Inc."
+msgstr "株式会社デライトスター"
+
+#: includes/admin-page.php:211
+msgid "Yahoo Shopping a_id"
+msgstr "Yahooショッピング a_id"
+
+#: includes/admin-page.php:207
+msgid "<span class=\"wpap-orange\">Moshimo affiliates would only use links to Rakuten Ichiba through \"Amazon with All\" rather than links to individual products on Rakuten Ichiba or Rakuten Books. (In order to comply with the terms of service for Rakuten Web Service)</span><br /><a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire detailed specifications and an a_id."
+msgstr "<span class=\"wpap-orange\">もしもアフィリエイトが適用されるのは「Amazon with All」の楽天市場のリンクのみで、楽天市場 / 楽天ブックス単体の商品リンクには適用されません。（楽天ウェブサービス規約遵守のため）</span><br />詳しい仕様やa_idを取得する方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:199
+msgid "Rakuten Ichiba a_id"
+msgstr "楽天市場 a_id"
+
+#: includes/admin-page.php:187
+msgid "Amazon a_id"
+msgstr "Amazon a_id"
+
+#: includes/admin-page.php:183
+msgid "Use Moshimo Affiliate links"
+msgstr "もしもアフィリエイトのリンクを使用する"
+
+#: includes/admin-page.php:171
+msgid "Moshimo Affiliate"
+msgstr "もしもアフィリエイト"
+
+#: classes/class-main.php:666
+msgid "* To reduce the operating speed, the Moshimo Affiliates URL and the Bitly URL shortening does not reflect."
+msgstr "※動作速度を短縮するため、プレビュー画面ではもしもアフィリエイトのリンクとBitlyのURL短縮は反映されません。"
+
+#: templates/with-detail.php:34 templates/with-image-text-h.php:23
+#: templates/with-image-text-v.php:23
+msgid "Rakuten Books %1$s %2$s"
+msgstr "楽天ブックス %1$s %2$s"
+
+#: templates/with-detail.php:30 templates/with-image-text-h.php:19
+#: templates/with-image-text-v.php:19
+msgid "Rakuten Ichiba Search: %s"
+msgstr "楽天市場検索: %s"
+
+#: includes/admin-page.php:110 includes/admin-page.php:122
+msgid "<a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire an Application ID and an Affiliate ID."
+msgstr "アプリIDとアフィリエイトIDを取得する方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:102
+msgid "Application ID"
+msgstr "アプリID"
+
+#: includes/admin-page.php:19
+msgid "Enable Amazon Associates links"
+msgstr "Amazonアソシエイトのリンクを有効にする"
+
+#: classes/class-template.php:18
+msgid "Text"
+msgstr "テキスト"
+
+#: classes/class-template.php:17
+msgid "Image"
+msgstr "画像"
+
+#: classes/class-rakuten.php:105
+msgid "API is under maintenance."
+msgstr "APIはメンテナンス中です。"
+
+#: classes/class-rakuten.php:102
+msgid "API system error occurred."
+msgstr "APIシステムエラーが発生しました。"
+
+#: classes/class-rakuten.php:93
+msgid "Parameter Error: %s"
+msgstr "パラメーターエラー: %s"
+
+#: classes/class-rakuten.php:91
+msgid "Your Application ID is wrong. Please check your settings."
+msgstr "アプリIDが間違っています。設定内容を確認してください。"
+
+#: classes/class-rakuten.php:50
+msgid "The search keywords must be entered with at least 2 half-width characters or at least 1 full-width character."
+msgstr "検索キーワードは、少なくとも半角2文字または半角1文字以上で入力する必要があります。"
+
+#: classes/class-main.php:588
+msgid "I like this plugin, so I'll be supporter."
+msgstr "プラグインを気に入ったので支援者になる"
+
+#: classes/class-rakuten.php:138 classes/class-template.php:62
+#: classes/class-main.php:418
+msgid "Rakuten Books"
+msgstr "楽天ブックス"
+
+#: classes/class-rakuten.php:123 classes/class-template.php:61
+#: classes/class-main.php:415
+msgid "Rakuten Ichiba"
+msgstr "楽天市場"
+
+#: classes/class-main.php:409
+msgid "Amazon with All"
+msgstr "Amazon with All"
+
+#: classes/class-main.php:333
+msgid "The Amazon Tracking ID is incorrect."
+msgstr "AmazonトラッキングIDが不正です。"
+
+#. Description of the plugin
+msgid "Affiliate easy installation plugin. Works with Amazon Associates, Rakuten Affiliate, and ValueCommerce Affiliate for Yahoo Shopping. Contributing to the monetization of your blog."
+msgstr "アフィリエイトかんたん導入プラグイン。「Amazonアソシエイト」「楽天アフィリエイト」「Yahooショッピング（バリューコマースアフィリエイト）」に対応。あなたのブログ収益化に貢献します。"
+
+#. Plugin URI of the plugin
+msgid "https://wp-ap.net/"
+msgstr "https://wp-ap.net/"
+
+#: templates/with-detail.php:45
+msgid "Amazon product information"
+msgstr "Amazonの情報を掲載しています"
+
+#: classes/class-template.php:63
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: templates/with-detail.php:40 templates/with-image-text-h.php:29
+#: templates/with-image-text-v.php:29
+msgid "Yahoo Shopping Search: %s"
+msgstr "Yahooショッピング検索: %s"
+
+#: classes/class-template.php:60 classes/class-main.php:412
+msgid "Amazon"
+msgstr "Amazon"
+
+#: templates/with-detail.php:22 templates/single-detail.php:15
+msgid "Release date: %s"
+msgstr "発売日: %s"
+
+#: templates/with-detail.php:18 templates/single-detail.php:11
+msgid "(as of %s)"
+msgstr "(%s時点)"
+
+#: templates/with-detail.php:4 templates/with-detail.php:9
+#: templates/with-detail.php:25 templates/with-image-text-h.php:4
+#: templates/with-image-text-h.php:9 templates/with-image-text-h.php:14
+#: templates/with-image-text-v.php:4 templates/with-image-text-v.php:9
+#: templates/with-image-text-v.php:14
+msgid "Amazon %1$s %2$s"
+msgstr "Amazon %1$s %2$s"
+
+#: includes/admin-page.php:292
+msgid "Import"
+msgstr "インポートする"
+
+#: includes/admin-page.php:287
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/admin-page.php:284
+msgid "Import / Export Settings"
+msgstr "設定のインポート・エクスポート"
+
+#: includes/admin-page.php:280
+msgid "Product data will be cached for 24 hours. Use this when you want to force update data."
+msgstr "商品情報は24時間キャッシュされます。強制的に情報を更新したい時にご利用ください。"
+
+#: includes/admin-page.php:279
+msgid "Clear all product data cache"
+msgstr "商品情報のキャッシュをすべて削除する"
+
+#: includes/admin-page.php:277
+msgid "Clear Cache"
+msgstr "キャッシュクリア"
+
+#: includes/admin-page.php:269
+msgid "Requires Google Analytics on your blog. <a href=\"%s\" target=\"_blank\">Check here</a> for information on how to view clicks report."
+msgstr "Googleアナリティクスを導入している必要があります。クリック数の表示方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:268
+msgid "Track clicks with Google Analytics"
+msgstr "Googleアナリティクスを使ってクリック数を計測する"
+
+#: includes/admin-page.php:259
+msgid "Google Analytics"
+msgstr "Googleアナリティクス連携"
+
+#: includes/admin-page.php:256
+msgid "Other"
+msgstr "その他"
+
+#: includes/admin-page.php:252
+msgid "Users may also use a customized CSS file. When doing so, save the CSS file in the existing theme directory using the naming format <code>wpap-*****.css</code>.<br /><a href=\"%s\" target=\"_blank\">Check here</a> for more information."
+msgstr "現在使用しているテーマフォルダ内に<code>wpap-*****.css</code>という名称でcssを設置するとオリジナルのcssが読み込まれます。<br />詳しくは<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:234
+msgid "Shadow (skin-shadow.css)"
+msgstr "影 (skin-standard.css)"
+
+#: includes/admin-page.php:233
+msgid "Weave (skin-weave.css)"
+msgstr "曲線 (skin-standard.css)"
+
+#: includes/admin-page.php:232
+msgid "Circle (skin-circle.css)"
+msgstr "円 (skin-circle.css)"
+
+#: includes/admin-page.php:231
+msgid "Square (skin-square.css)"
+msgstr "スクエア (skin-standard.css)"
+
+#: includes/admin-page.php:230
+msgid "Standard (skin-standard.css)"
+msgstr "スタンダード (skin-standard.css)"
+
+#: includes/admin-page.php:226
+msgid "Skin CSS"
+msgstr "スキンCSS"
+
+#: includes/admin-page.php:223
+msgid "Template"
+msgstr "テンプレート"
+
+#: includes/admin-page.php:159
+msgid "pid"
+msgstr "pid"
+
+#: includes/admin-page.php:155 includes/admin-page.php:167
+msgid "<a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire a sid and a pid."
+msgstr "sidとpidを取得する方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:147
+msgid "sid"
+msgstr "sid"
+
+#: includes/admin-page.php:143
+msgid "Enable Yahoo Shopping links"
+msgstr "Yahooショッピングのリンクを有効にする"
+
+#: includes/admin-page.php:131
+msgid "Yahoo Shopping / ValueCommerce Affiliate"
+msgstr "Yahooショッピング / バリューコマースアフィリエイト"
+
+#: includes/admin-page.php:195 includes/admin-page.php:219
+msgid "<a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire an a_id."
+msgstr "a_idを取得する方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:114
+msgid "Affiliate ID"
+msgstr "アフィリエイトID"
+
+#: includes/admin-page.php:98
+msgid "Enable Rakuten Affiliate links"
+msgstr "楽天アフィリエイトのリンクを有効にする"
+
+#: includes/admin-page.php:86
+msgid "Rakuten Affiliate"
+msgstr "楽天アフィリエイト"
+
+#: includes/admin-page.php:81
+msgid "An Access Token is required to shorten the URL using Bitly. <a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire a Bitly Access Token."
+msgstr "BitlyでリンクURLを短縮するために必要です。Bitlyアクセストークンの取得方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:73
+msgid "Bitly Access Token"
+msgstr "Bitly アクセストークン"
+
+#: includes/admin-page.php:69
+msgid "The link will be shortened to the <code>https://amzn.to/*******</code> format."
+msgstr "<code>https://amzn.to/*******</code> のようにリンクURLを短縮できます。"
+
+#: includes/admin-page.php:68
+msgid "Shorten the Amazon Associates links using Bitly"
+msgstr "BitlyでAmazonアソシエイトのリンクURLを短縮する"
+
+#: includes/admin-page.php:55
+msgid "Enter your Tracking ID in the <code>*****-22</code> format. <a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire a Tracking ID."
+msgstr "<code>*****-22</code>の形式で入力してください。トラッキングIDの取得方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:47
+msgid "Tracking ID"
+msgstr "トラッキング ID"
+
+#: includes/admin-page.php:35
+msgid "Secret Access Key"
+msgstr "シークレットアクセスキー"
+
+#: includes/admin-page.php:31 includes/admin-page.php:43
+msgid "<a href=\"%s\" target=\"_blank\">Check here</a> for information on how to acquire an Access Key ID and a Secret Access Key."
+msgstr "アクセスキーIDとシークレットアクセスキーを取得する方法は<a href=\"%s\" target=\"_blank\">こちら</a>をご確認ください。"
+
+#: includes/admin-page.php:23
+msgid "Access Key ID"
+msgstr "アクセスキーID"
+
+#: includes/admin-page.php:7
+msgid "Amazon Associates / Product Advertising API"
+msgstr "Amazonアソシエイト / Product Advertising API"
+
+#: includes/admin-page.php:4
+msgid "WP Associate Post R2 Settings"
+msgstr "WPアソシエイトポストR2 設定"
+
+#: classes/class-template.php:47
+msgid "¥%s"
+msgstr "%s円"
+
+#: classes/class-template.php:16 classes/class-template.php:23
+msgid "Image & Text (V)"
+msgstr "画像・テキスト（縦）"
+
+#: classes/class-template.php:15 classes/class-template.php:22
+msgid "Image & Text (H)"
+msgstr "画像・テキスト（横）"
+
+#: classes/class-template.php:14 classes/class-template.php:21
+msgid "Detail"
+msgstr "標準"
+
+#: classes/class-main.php:724
+msgid "Add Product Links"
+msgstr "商品リンクを追加"
+
+#: classes/class-main.php:701
+msgid "Insert and Close"
+msgstr "挿入してウインドウを閉じる"
+
+#: classes/class-main.php:699
+msgid "Insert"
+msgstr "挿入"
+
+#: classes/class-main.php:695
+msgid "Back to Index"
+msgstr "一覧に戻る"
+
+#: classes/class-main.php:679
+msgid "Search on Yahoo Shopping"
+msgstr "Yahooショッピングで検索"
+
+#: classes/class-main.php:677
+msgid "Search on Rakuten"
+msgstr "楽天市場で検索"
+
+#: classes/class-main.php:672
+msgid "Search Keyword Setting"
+msgstr "検索キーワード設定"
+
+#: classes/class-main.php:671
+msgid "The link address for Rakuten and Yahoo Shopping is the keywords search result page.<br />With the search button below, check if each corresponding product is displayed. If it is not displayed, please modify the search keyword."
+msgstr "楽天市場およびYahooショッピングの場合は、リンク先がキーワード検索結果画面となります。<br />そのため、以下の検索ボタンからそれぞれ該当の商品が表示されるか確認し、表示されない場合は検索キーワードを調整してください。"
+
+#: classes/class-main.php:650
+msgid "Next &gt;"
+msgstr "次へ &gt;"
+
+#: classes/class-main.php:648
+msgid "&lt; Prev"
+msgstr "&lt; 前へ"
+
+#: classes/class-main.php:639
+msgid "Commission Rates"
+msgstr "紹介料率"
+
+#: classes/class-main.php:638
+msgid "Commission Rates are a rough indicator and can differ to actual."
+msgstr "紹介料率は目安であり、実際とは異なる場合があります。"
+
+#: classes/class-main.php:631
+msgid "An error occurred."
+msgstr "エラーが発生しました。"
+
+#: classes/class-main.php:625
+msgid "Reload"
+msgstr "再読み込み"
+
+#: classes/class-main.php:623
+msgid "Please wait some time before making another search."
+msgstr "しばらく時間をあけてから再検索してください。"
+
+#: classes/class-main.php:621
+msgid "The upper limit of API requests has been passed."
+msgstr "APIリクエストの上限を超えました。"
+
+#: classes/class-main.php:617
+msgid "Make another search after changing the designated conditions."
+msgstr "指定した条件を変更して、再検索してください。"
+
+#: classes/class-main.php:616
+msgid "Product not found."
+msgstr "商品は見つかりませんでした。"
+
+#: classes/class-main.php:607
+msgid "Result for \"%s\""
+msgstr "「%s」の検索結果"
+
+#: classes/class-main.php:596
+msgid "%1$s result for \"%2$s\""
+msgid_plural "%1$s results for \"%2$s\""
+msgstr[0] "「%2$s」の検索結果（%1$s件）"
+
+#: classes/class-main.php:584
+msgid "We display product information from Amazon."
+msgstr "Amazonの商品情報を取得して表示しています。"
+
+#: classes/class-main.php:574
+msgid "Keyword"
+msgstr "キーワード"
+
+#: classes/class-main.php:571
+msgid "Search"
+msgstr "検索"
+
+#: classes/class-main.php:558
+msgid "All Categories"
+msgstr "すべてのカテゴリ"
+
+#: classes/class-main.php:529
+msgid "<span class=\"tooltip\" data-tooltip=\"Not presently in stock due to discontinued product or canceled release, etc. by manufacturer or publisher.\">Not in stock</span>"
+msgstr "<span class=\"tooltip\" data-tooltip=\"メーカー・出版社の廃番商品、発売中止などの理由により取り扱いしていません。\">取扱不可</span>"
+
+#: classes/class-main.php:525
+msgid "<span class=\"tooltip\" data-tooltip=\"The price for products sold only as a used item is not shown due to possibility of large fluctuations in price.\">Used only</span>"
+msgstr "<span class=\"tooltip\" data-tooltip=\"中古品のみ販売されている商品は、大幅に価格変動する可能性があるため価格表示しません。\">中古品のみ</span>"
+
+#: classes/class-main.php:521
+msgid "Amazon video (<span class=\"tooltip\" data-tooltip=\"It's not possible to get the price of Amazon videos due to API specifications.\">Not possible to get the price</span>)"
+msgstr "Amazonビデオ（<span class=\"tooltip\" data-tooltip=\"APIの仕様によりAmazonビデオは価格が取得できません\">価格取得できません</span>）"
+
+#: classes/class-main.php:398
+msgid "Cache cleared."
+msgstr "キャッシュを削除しました。"
+
+#: classes/class-main.php:392
+msgid "Some error occurred, please try again later."
+msgstr "何らかの理由でエラーが発生しました。再度お試しください。"
+
+#: classes/class-main.php:384
+msgid "Help"
+msgstr "ヘルプ"
+
+#: classes/class-main.php:377
+msgid "Settings"
+msgstr "設定"
+
+#: classes/class-main.php:367
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#. Plugin Name of the plugin
+#: classes/class-main.php:325 classes/class-main.php:723
+#: js/admin-gutenberg-block.js:129
+msgid "WP Associate Post R2"
+msgstr "WPアソシエイトポストR2"
+
+#: classes/class-main.php:177
+msgid "In order to improve operating speed, Rakuten and Yahoo links can not be clicked from the preview screen."
+msgstr "動作速度を短縮するため、プレビュー画面では楽天・Yahooのリンクはクリックできません。"
+
+#: classes/class-main.php:166
+msgid "The setting will be overridden. If you select the wrong file, the setting may be corrupt or disappear, so please verify you have selected the correct file. Are you sure you want to import?"
+msgstr "設定内容を上書きします。誤ったファイルを選択すると設定が破損したり消えたりする場合がありますので、必ずご確認ください。本当にインポートしますか？"
+
+#: classes/class-main.php:165
+msgid "File not selected."
+msgstr "ファイルが選択されていません。"
+
+#: classes/class-main.php:164
+msgid "A communication error occurred. Please try again in a moment."
+msgstr "通信エラーが発生しました。再度お試しください。"
+
+#: classes/class-main.php:163
+msgid "Clearing the cache... Please wait a moment."
+msgstr "キャッシュを削除しています。しばらくお待ちください。"
