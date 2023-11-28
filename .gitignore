@@ -19,10 +19,6 @@ app/sql
 # app/public/wp-content/uploads を追跡から外す
 app/public/wp-content/uploads/
 
-# app/public/wp-content/ai1wm-backups を追跡から外す
-app/public/wp-content/ai1wm-backups/
-
-
 # WordPress コアファイル
 .htaccess
 index.php
