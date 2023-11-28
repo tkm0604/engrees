@@ -19,6 +19,9 @@ app/sql
 # app/wp-content/uploads を除外（追跡から外す）
 app/wp-content/uploads/
 
+# app/wp-content/ai1wm-backups を除外（追跡から外す）
+app/wp-content/ai1wm-backups/
+
 
 # WordPress コアファイル
 .htaccess
@@ -41,8 +44,6 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
-
-# 追加のファイ
 
 
 # その他の隠しファイルとディレクトリ
