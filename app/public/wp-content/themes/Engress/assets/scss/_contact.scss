@@ -1,0 +1,181 @@
+#main_img {
+    .contact_img__inner {
+        position: relative;
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @include f(32, "", 0);
+            // font-weight: bold;
+            color: #fff;
+            @media screen and(max-width: 768px) {
+                @include f(20, "", 0);
+                line-height: 1.5;
+                @media screen and(max-width: 425px) {
+                    font-size: 17px;
+                }
+            }
+            @media screen and(min-width: 321px) {
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+///////#main_img///////
+
+
+
+#contact {
+    .contact_inner {
+        max-width: 700px;
+        width: 100%;
+        margin: 58px auto 82px;
+        @media screen and(max-width: 768px) {
+            padding: 0 12px;
+            margin: 7.5vw auto 10.6vw;
+        }
+        .contact_txt {
+            margin-bottom: 41px;
+            @media screen and(max-width: 768px) {
+                margin-bottom: 5.3vw;
+            }
+            p {
+                line-height: 1.68;
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16)
+                }
+            }
+        }
+        dt {
+            margin-bottom: 12px;
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16)
+            }
+            span {
+                font-weight: bold;
+            }
+        }
+        dd {
+            margin-bottom: 20px;
+        }
+        ::placeholder {
+            font-size: 12px;
+        }
+        input {
+            padding: 18px 0 19px 20px;
+            @media screen and(max-width: 768px) {
+                padding: 2.3vw 0 2.4vw 2.5vw;
+            }
+        }
+        dd:last-of-type {
+            margin-bottom: 30px;
+        }
+        .contact_radio__wrap {
+            margin-bottom: 21px;
+            line-height: 1.68;
+        }
+        .radio {
+            display: block;
+            align-items: center;
+            margin-bottom: 18px;
+            input{
+                margin: 0;
+            }
+            label{
+                margin: 0 0 0 19px;
+                @media screen and(max-width: 768px) {
+                    margin: 0 0 0 2.4vw;
+                }
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16)
+                }
+            }
+        }
+        .radio:last-of-type{
+            margin-bottom: 26px;
+            @media screen and(max-width: 768px) {
+                margin-bottom: 3.4vw;
+            }
+        }
+        .mwform-checkbox-field-text{
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16)
+            }
+        }
+        .contact__privacy{
+            text-align: center;
+            .policy{
+                margin-bottom: 33px;
+                line-height: 1.68;
+                @media screen and(min-width: 424px) {
+                    br{
+                        display: none;
+                    }
+                }
+                @media screen and(max-width: 768px) {
+                    margin-bottom: 4.3vw;
+                }
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16)
+                }
+                a{
+                    text-decoration: underline;
+                    color: $accent;
+                    span{
+                        color: $accent;
+                    }
+                }
+            }
+            label{
+                display: flex;
+                justify-content: center;
+                input{
+                    margin: 0;
+                }
+                p{
+                    margin:0 0 0 12px;
+                    @media screen and(max-width: 375px) {
+                        @include fz_vw(16)
+                    }
+                }
+            }
+            .btn_wrap{
+                display: flex;
+                justify-content: center;
+                .button{
+                    background-color: $base;
+                    border: 1px solid $base;
+                    color: #fff;
+                    font-size: 16px;
+                    padding: 16px 0 19px;
+                    max-width: 200px;
+                    width: 100%;
+                    border-radius: 5px;
+                    margin-top: 48px;
+                    cursor: pointer;
+                    @media screen and(max-width: 768px) {
+                        margin-bottom: 6.2vw;
+                    }
+                    @media screen and(max-width: 375px) {
+                        @include fz_vw(16)
+                    }
+                }
+                .back_btn{
+                    margin-right: 20px;
+                }
+            }
+        }
+        .mw_wp_form_confirm{
+            .policy {
+                display: none;
+            }
+            p{
+                display: none;
+            }
+        }
+    }
+}
+

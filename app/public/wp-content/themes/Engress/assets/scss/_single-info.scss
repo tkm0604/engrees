@@ -1,0 +1,89 @@
+#info_single {
+    .info_single__inner {
+        margin: 60px auto 50px;
+        @media screen and(max-width: 768px) {
+            margin: 7.8vw auto 7.3vw;
+        }
+        .blog-detail__title {
+            margin-bottom: 40px;
+            @media screen and(max-width: 768px) {
+                margin-bottom: 5.2vw;
+            }
+            @media screen and(max-width: 375px) {
+                @include fz_vw(22);
+            }
+        }
+        h2 {
+            @media screen and(max-width: 375px) {
+                @include fz_vw(20);
+            }
+        }
+        h2:nth-of-type(2n) {
+            border-left: 4px solid $base;
+            padding-left: 10px;
+        }
+        ul {
+            margin-left: 16px;
+            li {
+                list-style: circle;
+                margin-bottom: 12px;
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16);
+                }
+            }
+        }
+        p {
+            line-height: 1.75;
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16);
+            }
+            a {
+                color: #f5a623;
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16);
+                }
+            }
+        }
+        .wp-block-quote {
+            background-color: #f8f8f8;
+            padding: 10px;
+            position: relative;
+            padding: 30px 60px;
+            @media screen and(max-width: 768px) {
+                padding: 10px 40px;
+            }
+        }
+        blockquote::before {
+            position: absolute;
+            background: url(../img/quote_icon.svg) no-repeat;
+            content: "";
+            top: 25px;
+            left: 15px;
+            font-size: 3rem;
+            color: #d8d8d8;
+            width: 30px;
+            height: 30px;
+            @media screen and(max-width: 768px) {
+                top: 7px;
+                left: 0px;
+            }
+        }
+        .wp-block-image {
+            img {
+                height: auto;
+            }
+        }
+        cite {
+            margin-top: 10px;
+            text-align: right;
+            display: block;
+            
+            a {
+                text-align: right;
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16);
+                }
+            }
+        }
+    }
+}

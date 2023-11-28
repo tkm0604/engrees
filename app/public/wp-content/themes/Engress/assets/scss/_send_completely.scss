@@ -1,0 +1,30 @@
+#send_completely{
+    .inner{
+        text-align: center;
+        margin: 83px auto 80px;
+        @media screen and(max-width: 768px){
+            margin: 10.8vw auto 10.4vw;
+        }
+        p{
+            line-height: 1.68;
+            margin-bottom: 92px;
+            @media screen and(max-width: 768px){
+                margin-bottom: 11.9vw;
+                @media screen and(max-width: 375px){
+                    @include fz_vw(16)
+                }
+            }
+            @media screen and(max-width: 424px) {
+                br{
+                    display: none;
+                }
+            }
+        }
+        a{
+            text-decoration: underline;
+            @media screen and(max-width: 375px){
+                @include fz_vw(16)
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.info_article {
+    border-top: 1px 1px dotted #D5D5D5;
+    margin-bottom: 1px;
+    .info_title_wrap{
+        display: flex;
+        align-items: center;
+        padding: 23px 0;
+        .info_date{
+            line-height: 1.5;
+            margin-right: 51px;
+            @media screen and(max-width: 768px) {
+                margin-right: 6.6vw;
+                @media screen and(max-width: 375px) {
+                    @include fz_vw(16);
+                }
+            }
+        }
+        .info_title{
+            @include f(16,'',0);
+            line-height: 1.5;
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16);
+            }
+        }
+    }
+}
+
+.info_article:last-of-type{
+    border-bottom: 1px 1px dotted #D5D5D5;
+    margin-bottom: 65px;
+}
+

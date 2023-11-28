@@ -1,0 +1,218 @@
+#main_img {
+    .main_img__inner {
+        position: relative;
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @include f(32, "", 0);
+            // font-weight: bold;
+            color: #fff;
+            @media screen and(max-width: 768px) {
+                @include f(20, "", 0);
+                line-height: 1.68;
+                // @media screen and(max-width: 375px) {
+                //     font-size: 20px;
+                // }
+            }
+         }
+    }
+}
+///////#main_img///////
+
+
+
+#fee_structure {
+    padding: 58px 0 90px;
+    @media screen and(max-width: 1023px) {
+        padding: 5.6vw 0 8.7vw;
+    }
+    .fee_structure__inner {
+        text-align: center;
+        h2 {
+            margin-bottom: 60px;
+            @media screen and(max-width: 1023px){
+                margin-bottom: 5.8vw;
+            }
+        }
+        .fee_structure_btn__wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 45px;
+            @media screen and(max-width: 1023px){
+                margin-bottom: 4.3vw;
+            }
+            a {
+                max-width: 280px;
+                width: 100%;
+                padding: 34px 0;
+                background-color: $base;
+                color: #fff;
+                @include f(22, "", 0);
+                font-weight: bold;
+                margin-right: 32px;
+                @media screen and(max-width: 1023px){
+                    margin-right: 3.1vw;
+                }
+                @media screen and(max-width: 768px){
+                    @include f(18, "", 0);
+                    padding: 20px 0;
+
+                }
+                @media screen and(max-width: 375px){
+                    @include fz_vw(16)
+                }
+            }
+            p {
+                font-size: 29px;
+                margin-right: 32px;
+                @media screen and(max-width: 1023px){
+                    margin-right: 3.1vw;
+                }
+            }
+            a:last-of-type {
+                margin-right: 0;
+            }
+        }
+        .fee_structure_text {
+            text-align: left;
+            line-height: 1.68;
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16);
+            }
+        }
+    }
+}
+///////#fee_structure///////
+
+#price_list {
+    @media screen and(max-width: 768px) {
+        padding-bottom: 50px;
+    }
+    padding-bottom: 62px;
+    .price_list__inner {
+        text-align: center;
+        h2 {
+            margin-bottom: 106px;
+            @media screen and(max-width: 1023px) {
+                margin-bottom: 10.4vw;
+            }
+        }
+        .price_list__contents {
+            .plan {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                @media screen and(max-width: 768px) {
+                    flex-direction: column;
+                }
+                .plan_list {
+                    border: 1px solid $base;
+                    max-width: 220px;
+                    width: 100%;
+                    margin-right: 7px;
+                    @media screen and(max-width: 768px) {
+                        max-width: none;;
+                        margin-right: 0;
+                        margin-bottom: 30px;
+                    }
+                    span{
+                        display: block;
+                        margin: -32px -1px -26px;
+                        padding: 23px 0 20px;
+                        background-color: #f5a623;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                    
+                    h3{
+                        padding: 17px 0 18px;
+                        background: #1b224c;
+                        color: #fff;
+                        font-weight: 700;
+                    }
+                    .price_list__inner{
+                        padding: 30px 0;
+                        margin: 0 22px;
+                        @media screen and(max-width: 1023px){
+                            margin: 0 1.9vw;
+                            padding: 3vw 0 ;
+                        }
+                        h4{
+                            @include f(25,'',0);
+                            font-weight: bold;
+                            margin-bottom: 14px;
+                            @media screen and(max-width: 425px){
+                                font-size: 18px;
+                            }
+                        }
+                        .monthly{
+                            margin-bottom: 51px;
+                            @media screen and(max-width: 1023px) {
+                                margin-bottom: 12px;
+                                @media screen and(max-width: 375px) {
+                                    @include fz_vw(16);
+                                }
+                            }
+                        }
+                    .price_list__li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 20px;
+                        @media screen and(max-width: 768px) {
+                            margin-bottom: 12px;
+                            @media screen and(max-width: 375px) {
+                                @include fz_vw(16);
+                            }
+                        }
+                        img {
+                            max-width: 14px;
+                            margin-right: 11px;
+                            @media screen and(max-width: 768px) {
+                                margin-right: 8px;
+                            }
+                        }
+                        p{
+                            line-height: 1.68;
+                            @media screen and(max-width: 765px) {
+                                line-height: 1;
+                            }
+                        }
+                    }
+                    .price_list__li:last-of-type{
+                        margin-bottom: 91px;
+                        @media screen and(max-width: 1023px) {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                }
+                .plan_list:nth-of-type(2){
+                    margin-bottom: 0;
+                }
+                .plan_list:nth-of-type(3){
+                    border-top: none;
+                    @media screen and(max-width: 768px) {
+                        margin-top: 61px;
+                    }
+                    h3{
+                        background: $accent;
+                        margin: 0 -1px;
+                    }
+                    h4{
+                        color: $accent;
+                    }
+                }
+                .plan_list:last-of-type{
+                    margin-right: 0;
+                    @media screen and(max-width: 768px) {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
