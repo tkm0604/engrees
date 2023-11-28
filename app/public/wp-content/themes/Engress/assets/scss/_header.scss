@@ -1,165 +1,167 @@
 header {
-    .header__inner {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 10px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 15px;
+}
 
-        .header_left {
-            display: inline-flex;
-            align-items: center;
-            h1 {
-                margin-right: 21px;
-            }
-            nav {
-                display: flex;
-                ul {
-                    display: flex;
-                    li {
-                        margin-right: 28px;
-                        a {
-                            @include f(16, "", 0);
-                            font-weight: bold;
-                        }
-                    }
-                    li:last-of-type {
-                        margin-right: 0;
-                    }
-                }
-                @media screen and(max-width:1023px) {
-                    display: none;
-                }
-            }
-        }
-        ////////*header_left*//////////////
-        .header_right {
-            display: flex;
-            align-items: center;
-            .tel_wrap {
-                display: block;
-                margin-right: 23px;
-                text-align: end;
-                .time {
-                    @include f(12, "", 0);
-                    margin-bottom: 10px;
-                }
-                .tel_num {
-                    @include f(16, "", 0);
-                    font-weight: bold;
-                    display: inline-block;
-                }
-            }
-            .btn {
-                margin-right: 10px;
-            }
+.header-left {
+    display: inline-flex;
+    align-items: center;
 
-            .btn:last-of-type {
-                margin-right: 0;
-            }
-            @media screen and(max-width:1023px) {
-                display: none;
-            }
-        }
-        ///////////*header_right*///////////
-
-        #app_sp {
-            @media screen and(min-width:1024px) {
-                display: none;
-            }
-            /*ボタン*/
-            .hamburger_btn {
-                position: fixed; /*常に最上部に表示したいので固定*/
-                top: 0;
-                right: 0;
-                width: 49px;
-                height: 49px;
-                cursor: pointer;
-                z-index: 50;
-                background-color: $base;
-
-                .line {
-                    position: absolute;
-                    top: 0;
-                    left: 8px;
-                    width: 32px;
-                    height: 2px;
-                    background: #fff;
-                    text-align: center;
-                }
-
-                .line_01 {
-                    top: 14px;
-                    transition: 0.4s ease;
-                }
-                .line_02 {
-                    top: 24px;
-                    transition: 0.4s ease;
-                }
-                .line_03 {
-                    top: 34px;
-                    transition: 0.4s ease;
-                }
-                .btn_line01 {
-                    transform: translateY(10px) rotate(-45deg);
-                    transition: 0.4s ease;
-                }
-                .btn_line02 {
-                    transition: 0.4s ease;
-                    opacity: 0;
-                }
-                .btn_line03 {
-                    transform: translateY(-10px) rotate(45deg);
-                    transition: 0.4s ease;
-                }
-            }
-            /*サイドバー*/
-            .menu-enter-active,
-            .menu-leave-active {
-                transition: opacity 0.4s;
-            }
-            .menu-enter,
-            .menu-leave-to {
-                opacity: 0;
-            }
-            .menu-leave,
-            .menu-enter-to {
-                opacity: 1;
-            }
-
-            .menu {
-                background-color: #fff;
-                z-index: 30;
-                padding: 2rem 1rem;
-                position: fixed;
-                width: 20rem;
-                height: 80rem;
-                top: 0;
-                right: 0;
-                ul {
-                    margin: 1rem;
-                    padding: 0;
-                    li {
-                        list-style: none;
-                        line-height: 1;
-                        padding: 1rem;
-                        border-bottom: 1px solid #e8e8e8;
-                        a {
-                            color: $base;
-                            text-decoration: none;
-                            font-size: 1.2rem;
-                            padding: 0 2rem;
-                        }
-                    }
-                }
-                .sp_nav__btn {
-                    display: flex;
-                    padding: 17px;
-                    .btn_document {
-                        margin-right: 5px;
-                    }
-                }
-            }
-        }
-        ////#app_sp////
+    &__title {
+        margin-right: 21px;
     }
-    ////header__inner////
+
+    &__nav {
+        display: flex;
+        @media screen and(max-width:1023px) {
+            display: none;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        &--item {
+            margin-right: 28px;
+        }
+        &--item:last-of-type {
+            margin-right: 0;
+        }
+        &--link {
+            @include f(16, "", 0);
+            font-weight: bold;
+        }
+    }
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+   &__btn{
+        margin-right: 10px;
+    }
+
+    &__btn:last-of-type {
+        margin-right: 0;
+    }
+    @media screen and(max-width:1023px) {
+        display: none;
+    }
+}
+
+.header-right-tel_wrap {
+    display: block;
+    margin-right: 23px;
+    text-align: end;
+    &__time {
+        @include f(12, "", 0);
+        margin-bottom: 10px;
+    }
+    &__tel_num {
+        @include f(16, "", 0);
+        font-weight: bold;
+        display: inline-block;
+    }
+}
+
+#app_sp {
+    @media screen and(min-width:1024px) {
+        display: none;
+    }
+    /*ボタン*/
+    .hamburger-btn {
+        position: fixed; /*常に最上部に表示したいので固定*/
+        top: 0;
+        right: 0;
+        width: 49px;
+        height: 49px;
+        cursor: pointer;
+        z-index: 50;
+        background-color: $base;
+
+        &__line {
+            position: absolute;
+            top: 0;
+            left: 8px;
+            width: 32px;
+            height: 2px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .line_01 {
+            top: 14px;
+            transition: 0.4s ease;
+        }
+        .line_02 {
+            top: 24px;
+            transition: 0.4s ease;
+        }
+        .line_03 {
+            top: 34px;
+            transition: 0.4s ease;
+        }
+        .btn_line01 {
+            transform: translateY(10px) rotate(-45deg);
+            transition: 0.4s ease;
+        }
+        .btn_line02 {
+            transition: 0.4s ease;
+            opacity: 0;
+        }
+        .btn_line03 {
+            transform: translateY(-10px) rotate(45deg);
+            transition: 0.4s ease;
+        }
+    }
+    /*サイドバー*/
+    .menu-enter-active,
+    .menu-leave-active {
+        transition: opacity 0.4s;
+    }
+    .menu-enter,
+    .menu-leave-to {
+        opacity: 0;
+    }
+    .menu-leave,
+    .menu-enter-to {
+        opacity: 1;
+    }
+}
+
+////#app_sp////
+
+.menu {
+    background-color: #fff;
+    z-index: 30;
+    padding: 2rem 1rem;
+    position: fixed;
+    width: 20rem;
+    height: 80rem;
+    top: 0;
+    right: 0;
+    .menu-item{
+        margin: 1rem;
+        padding: 0;
+       &__list {
+            list-style: none;
+            line-height: 1;
+            padding: 1rem;
+            border-bottom: 1px solid #e8e8e8;
+           &--link {
+                color: $base;
+                text-decoration: none;
+                font-size: 1.2rem;
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    .sp_nav__btn {
+        display: flex;
+        padding: 17px;
+        .btn_document {
+            margin-right: 5px;
+        }
+    }
 }
