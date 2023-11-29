@@ -725,9 +725,7 @@
 }
 
 .blog-content-txt-wrap {
-    position: relative;
-    &__link{
-    }
+
     &__title {
         color: $base;
         @include f(16, "", 0);
@@ -738,8 +736,7 @@
         }
     }
     .blog_date {
-        position: absolute;
-        bottom: 0;
+        margin-top: 6px;
         @include f(12, "", 0);
         font-weight: normal;
     }
