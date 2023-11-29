@@ -1,54 +1,29 @@
-#main_img {
-    .contact_img__inner {
-        position: relative;
-        h2 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            @include f(32, "", 0);
-            // font-weight: bold;
-            color: #fff;
-            @media screen and(max-width: 768px) {
-                @include f(20, "", 0);
-                line-height: 1.5;
-                @media screen and(max-width: 425px) {
-                    font-size: 17px;
-                }
-            }
-            @media screen and(min-width: 321px) {
-                br {
-                    display: none;
-                }
-            }
-        }
+
+.contact {
+    max-width: 700px;
+    width: 100%;
+    margin: 58px auto 82px;
+    @media screen and(max-width: 768px) {
+        padding: 0 12px;
+        margin: 7.5vw auto 10.6vw;
     }
-}
-///////#main_img///////
 
 
-
-#contact {
-    .contact_inner {
-        max-width: 700px;
-        width: 100%;
-        margin: 58px auto 82px;
-        @media screen and(max-width: 768px) {
-            padding: 0 12px;
-            margin: 7.5vw auto 10.6vw;
-        }
-        .contact_txt {
+        .contact-txt {
             margin-bottom: 41px;
+            line-height: 1.68;
+
+
             @media screen and(max-width: 768px) {
                 margin-bottom: 5.3vw;
             }
-            p {
-                line-height: 1.68;
-                @media screen and(max-width: 375px) {
-                    @include fz_vw(16)
-                }
+
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16)
             }
+
         }
+
         dt {
             margin-bottom: 12px;
             @media screen and(max-width: 375px) {
@@ -176,6 +151,10 @@
                 display: none;
             }
         }
-    }
+
+        .mw_wp_form .error{
+            margin-top: 12px;
+        }
+
 }
 

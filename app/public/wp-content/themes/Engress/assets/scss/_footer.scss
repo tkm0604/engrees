@@ -1,105 +1,93 @@
-footer{
+.footer {
     background-color: $base;
-    .footer_inner{
-        display: flex;
-        justify-content: space-between;
-        padding: 35px 177px 68px 191px;
-        @media screen and(max-width: 1023px){
-            padding: 3.4vw 12px;
-            flex-direction: column;
-        }
+}
+.footer-contet {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 177px 68px 191px;
+    @media screen and(max-width: 1023px) {
+        padding: 3.4vw 12px;
+        flex-direction: column;
     }
-    .footer_left{
-        nav{
-            ul{
-                display: flex;
+}
 
-                @media screen and(max-width: 1023px) {
-                    margin-bottom: 16px;
-                }
-                li{
-                    list-style-type: none;
-                    // background-color: #fff;
-                    color: #000;
-                    a{
-                        color: #fff;
-                        position: relative;
-                        font-weight: bold;
-                        padding: 0 21px;
-                        @media screen and(max-width: 768px){
-                            padding: 0 2.6vw;
-                        }
-                        @media screen and(max-width: 375px){
-                            @include fz_vw(16)
-                        }
-                    }
-                    // a::after{
-                    //     position: absolute;
-                    //     content: "";
-                    //     width: 1px;
-                    //     background-color: #fff;
-                    //     height: 100%;
-                    //     margin: 0 21px;
-
-                    // }
-                }
-                li + li{
-                    border-left: 1px solid #fff;
-                }
-                li:first-of-type{
-                    a{
-                        padding-left: 0;
-                    }
-                }
-                // li:last-of-type{
-                //     a::after{
-                //         display: none;
-                //     }
-                // }
-                @media screen and(max-width:768px){
-                    margin-bottom: 16px;
-                }
+.footer-left-menu {
+    display: flex;
+    @media screen and(max-width: 1023px) {
+        margin-bottom: 16px;
+    }
+    &__item {
+        list-style-type: none;
+        height: fit-content;
+        color: #000;
+        &--link {
+            color: #fff;
+            position: relative;
+            font-weight: bold;
+            padding: 0 21px;
+            @media screen and(max-width: 768px) {
+                padding: 0 2.6vw;
+            }
+            @media screen and(max-width: 375px) {
+                @include fz_vw(16);
             }
         }
     }
-//////////footer_left///////////////
-.footer_right{
-    img{
+    li + li {
+        border-left: 1px solid #fff;
+    }
+    li:first-of-type {
+        a {
+            padding-left: 0;
+        }
+    }
+
+    @media screen and(max-width:768px) {
+        margin-bottom: 16px;
+    }
+}
+
+//////////footer-left///////////////
+
+.footer-right {
+    &__img {
         width: 197px;
         margin-bottom: 26px;
-        @media screen and(max-width: 1023px){
+        @media screen and(max-width: 1023px) {
             margin-bottom: 16px;
         }
     }
-    .tel_wrap{
-        text-align: end;
-        @media screen and(max-width: 1023px) {
-            text-align: left;
-        }
-       p{
-            color: #fff;
-        }
-        .tel_num{
-            display: inline-block;
-            font-weight: bold;
-            margin-bottom: 12px;
-        }
-        .time{
-            @include f(12,'',0);
-        }
+}
+//////////footer-right///////////////
+/// 
+.footer-right-tel {
+    text-align: end;
+    @media screen and(max-width: 1023px) {
+        text-align: left;
     }
-}   
-.footer_bottom{
+
+    &__num {
+        display: inline-block;
+        font-weight: bold;
+        margin-bottom: 12px;
+        color: #fff;
+    }
+   &__time {
+        @include f(12, "", 0);
+        color: #fff;
+    }
+}
+
+.footer-bottom {
     background-color: #fff;
-    p{
+    &__txt {
         text-align: right;
         padding: 12px 178px 11px 0;
-        @include f(12,'',0);
+        @include f(12, "", 0);
         font-weight: bold;
         @media screen and(max-width: 1023px) {
             padding: 12px 0;
             text-align: center;
         }
     }
-} 
 }

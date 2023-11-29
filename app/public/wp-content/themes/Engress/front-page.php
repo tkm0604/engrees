@@ -17,7 +17,7 @@ Template Name: トップページ
     </div>
     <!----main_visual------>
 
-    <div id="toefl_studies" class="toefl-studies">
+    <div class="toefl-studies">
         <div class="inner">
             <h2 class="toefl-studies__title">TOEFL学習で<br>こんな悩みありませんか？</h2>
             <ul class="toefl-studies-item">
@@ -42,7 +42,7 @@ Template Name: トップページ
     <!--toefl_studies__inner-->
 
 
-    <div id="strong_point" class="strong-point">
+    <div class="strong-point">
         <div class="inner">
             <h2 class="strong-point__title">TOEFL対策に特化した<br>Engress3つの強み</h2>
             <div class="strong-point-contents">
@@ -87,7 +87,7 @@ Template Name: トップページ
     </div>
     <!--plan-->
 
-    <div id="success_stories" class="success-stories">
+    <div class="success-stories">
         <div class="inner">
             <h2>TOEFL成功事例</h2>
             <div class="success-stories-contents-wrap">
@@ -118,7 +118,7 @@ Template Name: トップページ
     </div>
     <!--success-stories-->
 
-    <div id="usage_flow" class="usage-flow">
+    <div class="usage-flow">
         <div class="inner">
             <h2 class="usage-flow__title">ご利用の流れ</h2>
             <ol class="usage-flow-item">
@@ -145,9 +145,9 @@ Template Name: トップページ
             </ol>
         </div>
     </div>
-    <!--#usage_flow-->
+    <!--usage_flow-->
 
-    <div id="question" class="question">
+    <div class="question">
         <div class="inner question_inner">
             <h2 class="question__title">よくある質問</h2>
             <div id="app">
@@ -191,9 +191,8 @@ Template Name: トップページ
     </div>
     <!--#question-->
 
-    <div id="contents_area">
-        <div class="inner contents-area">
 
+        <div class="inner contents-area">
             <div class="contents-wrap">
                 <h2 class="contents-wrap__title">ブログ</h2>
                 <?php
@@ -213,8 +212,8 @@ Template Name: トップページ
                                 <?php echo the_category(); ?>
                             </div>
                             <div class="blog-content-txt-wrap">
-                                <a class="blog_title" href="<?php the_permalink(); ?>">
-                                    <h3><?php echo get_the_title(); ?></h3>
+                                <a class="blog-content-txt-wrap__link" href="<?php the_permalink(); ?>">
+                                    <h3 class="blog-content-txt-wrap__title"><?php echo get_the_title(); ?></h3>
                                 </a>
                                 <p class="blog_date"> <?php echo get_the_date(); ?></p>
                             </div>
@@ -252,7 +251,6 @@ Template Name: トップページ
                 <?php endif; ?>
             </div>
         </div>
-    </div>
     <!--#blog_area-->
     <?php get_template_part('template/document_request'); ?>
     <script>

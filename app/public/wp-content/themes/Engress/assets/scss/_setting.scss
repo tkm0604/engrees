@@ -89,6 +89,8 @@ a{
 }
 img{
   max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 li{
   list-style: none;
@@ -250,10 +252,10 @@ textarea{
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  padding: 0;
-  @media screen and(max-width: 1023px) {
-    padding: 0 12px;
-  }
+  padding: 58px 0 60px;
+  @media screen and(max-width: 1024px) {
+    padding: 5.7vw 2.9vw 3.8vw;
+}
 }
 
 h2{
@@ -262,18 +264,16 @@ h2{
   @media screen and(max-width: 768px){
     @include fz_vw(18);
     line-height: 1.5;
-    // @media screen and(max-width: 375px) {
-    //   font-size: 16px;
-    // }
  }
 }
 
 .lower_page__h2{
   @include f(32,'',0);
-  // font-weight: bold;
+  margin: 58px 0 60px;
   color: $base;
   @media screen and(max-width: 768px){
       @include fz_vw(20);
+      margin: 7.5vw 0 7.7vw;
       line-height: 1.5;
       @media screen and(max-width: 375px) {
        font-size: 20px;
@@ -287,9 +287,6 @@ h2{
   background-color: #f8f8f8;
   @media screen and(max-width: 1023px) {
       padding: 1.8vw 0 1.8vw 12px;
-    //   @media screen and(max-width: 768px) {
-    //     padding: 1.8vw 0 1.8vw 12px;
-    // }
   }
   span {
       font-size: 14px;

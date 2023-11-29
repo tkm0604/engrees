@@ -1,0 +1,26 @@
+
+    .mv{
+        position: relative;
+        &__title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @include f(32, "", 0);
+            color: #fff;
+            @media screen and(max-width: 768px) {
+                @include f(20, "", 0);
+                line-height: 1.68;
+            }
+            @media screen and(max-width: 375px) {
+                @include f(17, "", 0);
+                line-height: 1.68;
+            }
+
+            @media screen and(max-width: 340px) {
+                @include f(14, "", 0);
+                line-height: 1.68;
+            }
+         }
+    }
+

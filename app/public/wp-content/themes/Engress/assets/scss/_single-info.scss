@@ -1,6 +1,6 @@
-#info_single {
+
     .info_single__inner {
-        margin: 60px auto 50px;
+        margin: 0 auto;
         @media screen and(max-width: 768px) {
             margin: 7.8vw auto 7.3vw;
         }
@@ -13,11 +13,12 @@
                 @include fz_vw(22);
             }
         }
-        h2 {
-            @media screen and(max-width: 375px) {
-                @include fz_vw(20);
-            }
-        }
+        
+        // h2 {
+        //     @media screen and(max-width: 375px) {
+        //         @include fz_vw(20);
+        //     }
+        // }
         h2:nth-of-type(2n) {
             border-left: 4px solid $base;
             padding-left: 10px;
@@ -86,4 +87,3 @@
             }
         }
     }
-}

@@ -30,7 +30,6 @@
             }
             @media screen and(max-width: 375px) {
                 margin-bottom: 3vw;
-                // @include fz_vw(14);
             }
         }
         &__lead {
@@ -102,13 +101,7 @@
     margin-top: -2px;
     color: #fff;
     text-align: center;
-    padding: 63px 0 64px 0;
-    @media screen and(max-width: 1024px) {
-        padding: 0 12px;
-    }
-    @media screen and(max-width: 768px) {
-        padding: 8.3vw 0;
-    }
+
 
     &__title {
         margin-bottom: 65px;
@@ -205,12 +198,7 @@
 }
 
 .strong-point {
-    padding: 59px 0 39px;
     text-align: center;
-
-    @media screen and(max-width: 1024px) {
-        padding: 5.7vw 0 3.8vw;
-    }
 
     &__title {
         margin-bottom: 59px;
@@ -376,13 +364,9 @@
 
 .success-stories {
     background-color: $base;
-    padding: 58px 0 60px;
     margin-top: -2px;
     text-align: center;
-    @media screen and(max-width: 1024px) {
-        padding-top: 5.7vw;
-        padding-bottom: 5.8vw;
-    }
+
     h2 {
         color: #fff;
         margin-bottom: 137px;
@@ -470,11 +454,7 @@
 //////#success_stories///////
 
 .usage-flow {
-    padding: 58px 12px 75px;
     text-align: center;
-    @media screen and(max-width: 768px) {
-        padding: 7.6vw 0;
-    }
 
     &__title {
         margin-bottom: 53px;
@@ -555,11 +535,7 @@
 }
 
 .question {
-    padding: 75px 0 95px;
     text-align: center;
-    @media screen and(max-width: 1023px) {
-        padding: 9.7vw 0 12.3vw;
-    }
 
     &__title {
         margin-bottom: 32px;
@@ -675,7 +651,6 @@
     display: flex;
     justify-content: space-around;
     @media screen and(max-width: 1023px) {
-        padding: 0 12px;
         margin-bottom: 11.6vw;
 
         @media screen and(max-width: 700px) {
@@ -726,11 +701,7 @@
     @media screen and(max-width: 700px) {
         margin-right: 2.9vw;
     }
-    img {
-        max-width: 150px;
-        height: 100%;
-        width: 100%;
-    }
+
     .post-categories {
         li {
             a {
@@ -755,15 +726,15 @@
 
 .blog-content-txt-wrap {
     position: relative;
-    .blog_title {
-        h3 {
-            color: $base;
-            @include f(16, "", 0);
-            font-weight: bold;
-            line-height: 1.68;
-            @media screen and(max-width: 375px) {
-                @include fz_vw(16);
-            }
+    &__link{
+    }
+    &__title {
+        color: $base;
+        @include f(16, "", 0);
+        font-weight: bold;
+        line-height: 1.68;
+        @media screen and(max-width: 375px) {
+            @include fz_vw(16);
         }
     }
     .blog_date {
@@ -793,6 +764,9 @@
           }
           &__title {
               @include f(16, "", 0);
+              @media screen and(max-width: 375px) {
+                @include fz_vw(16);
+            }
           }
       }
       &__content:last-of-type {
@@ -801,128 +775,3 @@
   }
 
 
-#document_request {
-    text-align: center;
-    .document_request__outer {
-        position: relative;
-        img {
-            width: 100%;
-            @media screen and(max-width:1024px) {
-                height: 25vw;
-                @media screen and(max-width: 425px) {
-                    height: 30vw;
-                }
-            }
-        }
-    }
-    .document_request__inner {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        h2 {
-            color: #fff;
-            @include f(32, "", 0);
-            margin-bottom: 18px;
-            @media screen and(max-width: 1024px) {
-                margin-bottom: 1.7vw;
-                @media screen and(max-width: 768px) {
-                    @include fz_vw(18);
-                }
-            }
-        }
-        .btn_contents {
-            display: block;
-            margin: 0 auto 22px;
-            @media screen and(max-width: 1024px) {
-                margin-bottom: 2vw;
-                @media screen and(max-width: 768px) {
-                    padding: 2.4vw 0;
-                    max-width: 28vw;
-                }
-                @media screen and(max-width: 560px) {
-                    padding: 2vw 0;
-                    max-width: 30vw;
-                    @media screen and(max-width: 375px) {
-                        @include fz_vw(16);
-                    }
-                }
-            }
-        }
-        .mv_contact {
-            color: #fff;
-            text-decoration: underline;
-            @media screen and(max-width: 768px) {
-                @media screen and(max-width: 425px) {
-                    @include fz_vw(14);
-                }
-            }
-        }
-    }
-}
-.document_request__bottom {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    padding: 20px 0 23px;
-    @media screen and(max-width: 1023px) {
-        padding: 0 12px;
-        @media screen and(max-width: 768px) {
-            // justify-content: space-between;
-            margin-top: 2vw;
-        }
-    }
-    .contact_txt {
-        @include f(16, "", 0);
-        font-weight: bold;
-        margin-right: 20px;
-        @media screen and(max-width: 768px) {
-            font-size: 18px;
-            margin-right: 0px;
-            @media screen and(max-width: 375px) {
-                @include fz_vw(16);
-            }
-        }
-    }
-    .tel {
-        @include f(38, "", 0);
-        font-weight: bold;
-        margin-right: 20px;
-
-        @media screen and(max-width: 768px) {
-            display: none;
-        }
-    }
-    .time {
-        @media screen and(max-width: 768px) {
-            @include fz_vw(14);
-            display: none;
-        }
-    }
-}
-.sp_tel {
-    @media screen and(min-width: 769px) {
-        display: none;
-    }
-    @media screen and(max-width: 768px) {
-        font-size: 18px;
-        @media screen and(max-width: 375px) {
-            @include fz_vw(16);
-        }
-    }
-    margin-top: 2vw;
-}
-.sp_time {
-    @media screen and(min-width: 769px) {
-        display: none;
-    }
-    @media screen and(max-width: 768px) {
-        font-size: 18px;
-
-        @media screen and(max-width: 375px) {
-            @include fz_vw(16);
-        }
-    }
-    margin: 2vw 0;
-}

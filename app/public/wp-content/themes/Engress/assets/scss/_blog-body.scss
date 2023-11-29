@@ -1,0 +1,27 @@
+.blog-body{
+    h2{
+        margin-bottom: 24px
+    }
+    p {
+        @include f(16, "", 0);
+        line-height: 1.5;
+        margin: 8px 0;
+        @media screen and(max-width: 375px) {
+            @include fz_vw(14);
+        }
+    }
+
+    figure{
+        max-width: 100%;
+    }
+    
+    ul{
+        margin: 8px 0;
+        li{
+            margin-bottom: 6px;
+        }
+        li:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}
